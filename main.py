@@ -136,3 +136,10 @@ plt.ylabel('Количество фильмов')
 plt.xticks(rotation=35)
 # отрисовываем график
 plt.show()
+<<<<<<< HEAD
+=======
+
+# строим график 4: фильмы с высоким рейтингом IMDb
+# фильтруем данные: оставляем только фильмы с рейтингом от 8.0 и выше
+top_movies = df_unique[df_unique['IMDB_Score'] >= 8.0]
+>>>>>>> b0d01fb (initial loading and charting)
